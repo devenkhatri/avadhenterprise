@@ -28,6 +28,10 @@ export default function Header() {
       layout {
         header {
           id
+          logo {
+            alt
+            gatsbyImageData
+          }
           navItems {
             id
             navItemType
@@ -59,7 +63,7 @@ export default function Header() {
     }
   `)
 
-  const { navItems, cta } = data.layout.header
+  const { navItems, cta, logo } = data.layout.header
   const [isOpen, setOpen] = React.useState(false)
 
   React.useEffect(() => {
@@ -77,7 +81,7 @@ export default function Header() {
         <Flex variant="spaceBetween">
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
+            <BrandLogo logo={logo} />
           </NavLink>
           <nav>
             <FlexList gap={4}>
@@ -109,7 +113,7 @@ export default function Header() {
           >
             <NavLink to="/">
               <VisuallyHidden>Home</VisuallyHidden>
-              <BrandLogo />
+              <BrandLogo logo={logo} />
             </NavLink>
           </span>
           <Flex>

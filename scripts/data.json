@@ -1465,6 +1465,17 @@
           "omitted": false
         },
         {
+          "id": "logo",
+          "name": "Logo",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
           "id": "cta",
           "name": "CTA",
           "type": "Link",
@@ -1560,6 +1571,17 @@
           "validations": [],
           "disabled": false,
           "omitted": false
+        },
+        {
+          "id": "logo",
+          "name": "Logo",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
         },
         {
           "id": "links",

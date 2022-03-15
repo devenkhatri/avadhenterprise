@@ -234,6 +234,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
 
     interface LayoutHeader implements Node {
       id: ID!
+      logo: HomepageImage
       navItems: [HeaderNavItem]
       cta: HomepageLink
     }
@@ -257,6 +258,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
 
     interface LayoutFooter implements Node {
       id: ID!
+      logo: HomepageImage
       links: [HomepageLink]
       meta: [HomepageLink]
       socialLinks: [SocialLink]
@@ -563,6 +565,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
   actions.createTypes(/* GraphQL */ `
     type ContentfulLayoutHeader implements Node & LayoutHeader @dontInfer {
       id: ID!
+      logo: HomepageImage @link(from: "logo___NODE")
       navItems: [HeaderNavItem] @link(from: "navItems___NODE")
       cta: HomepageLink @link(from: "cta___NODE")
     }
@@ -575,6 +578,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
 
     type ContentfulLayoutFooter implements Node & LayoutFooter @dontInfer {
       id: ID!
+      logo: HomepageImage @link(from: "logo___NODE")
       links: [HomepageLink] @link(from: "links___NODE")
       meta: [HomepageLink] @link(from: "meta___NODE")
       socialLinks: [SocialLink] @link(from: "socialLinks___NODE")

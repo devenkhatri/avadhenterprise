@@ -74,6 +74,10 @@ export default function Footer(props) {
       layout {
         footer {
           id
+          logo {
+            alt
+            gatsbyImageData
+          }
           links {
             id
             href
@@ -95,7 +99,7 @@ export default function Footer(props) {
     }
   `)
 
-  const { links, meta, socialLinks, copyright } = data.layout.footer
+  const { logo, links, meta, socialLinks, copyright } = data.layout.footer
 
   return (
     <Box as="footer" paddingY={4}>
@@ -103,7 +107,7 @@ export default function Footer(props) {
         <Flex variant="start" responsive>
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
+            <BrandLogo logo={logo} />
           </NavLink>
           <Space />
           <FlexList>

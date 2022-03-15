@@ -220,6 +220,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       id: ID!
       heading: String
       text: String
+      html: String
       image: HomepageImage
       links: [HomepageLink]
     }
@@ -230,6 +231,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       heading: String
       kicker: String
       text: String
+      html: String
       content: [HomepageProduct]
     }
 
@@ -496,6 +498,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       @dontInfer {
       heading: String
       text: String
+      html: String @richText
       image: HomepageImage @link(from: "image___NODE")
       links: [HomepageLink] @link(from: "links___NODE")
     }
@@ -506,6 +509,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       heading: String
       kicker: String
       text: String
+      html: String @richText
       content: [HomepageProduct] @link(from: "content___NODE")
     }
 

@@ -11,6 +11,7 @@ import {
   Box,
   Icon,
   LinkList,
+  RichText,
 } from "./ui"
 
 function Product(props) {
@@ -20,7 +21,8 @@ function Product(props) {
         <Icon alt={props.image.alt} image={props.image} size="large" />
       )}
       <Subhead>{props.heading}</Subhead>
-      <Text>{props.text}</Text>
+      {props.text && <Text>{props.text}</Text>}
+      {props.html && <RichText>{props.html}</RichText>}
       <LinkList links={props.links} />
     </Box>
   )
@@ -36,6 +38,7 @@ export default function ProductList(props) {
             {props.heading}
           </Heading>
           {props.text && <Text>{props.text}</Text>}
+          {props.html && <RichText>{props.html}</RichText>}
         </Box>
         <FlexList gap={4} variant="responsive">
           {props.content.map((product) => (
@@ -55,10 +58,12 @@ export const query = graphql`
     kicker
     heading
     text
+    html
     content {
       id
       heading
       text
+      html
       image {
         alt
         id

@@ -32,7 +32,12 @@ export default function Hero(props) {
               {props.h1}
             </Heading>
             <Subhead as="h2">{props.subhead}</Subhead>
-            <Text as="p">{props.text}</Text>
+            {props.text && <Text as="p">{props.text}</Text>}
+            {props.html && <div
+              dangerouslySetInnerHTML={{
+                __html: props.html,
+              }}
+            />}
             <ButtonList links={props.links} />
           </Box>
         </Flex>
@@ -48,6 +53,7 @@ export const query = graphql`
     h1: heading
     subhead
     text
+    html
     links {
       id
       href

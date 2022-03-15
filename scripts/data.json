@@ -224,7 +224,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -268,7 +273,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -449,7 +456,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -493,7 +505,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -669,7 +683,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageTestimonial"]
+                "linkContentType": [
+                  "homepageTestimonial"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -777,7 +793,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -889,7 +910,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -943,7 +969,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageBenefit"]
+                "linkContentType": [
+                  "homepageBenefit"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1040,7 +1068,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -1084,7 +1117,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1261,7 +1296,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLogo"]
+                "linkContentType": [
+                  "homepageLogo"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1446,7 +1483,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageStat"]
+                "linkContentType": [
+                  "homepageStat"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1497,7 +1536,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1574,7 +1615,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["layoutHeader"]
+              "linkContentType": [
+                "layoutHeader"
+              ]
             }
           ],
           "disabled": false,
@@ -1589,7 +1632,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["layoutFooter"]
+              "linkContentType": [
+                "layoutFooter"
+              ]
             }
           ],
           "disabled": false,
@@ -1678,7 +1723,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["homepageLink"]
+              "linkContentType": [
+                "homepageLink"
+              ]
             }
           ],
           "disabled": false,
@@ -1698,7 +1745,10 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["navItem", "navItemGroup"]
+                "linkContentType": [
+                  "navItem",
+                  "navItemGroup"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1791,7 +1841,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1810,7 +1862,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["socialLink"]
+                "linkContentType": [
+                  "socialLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -1829,7 +1883,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -2023,7 +2079,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -2067,7 +2128,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -2159,7 +2222,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageProduct"]
+                "linkContentType": [
+                  "homepageProduct"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -2183,7 +2248,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -2305,7 +2375,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -2349,7 +2424,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageFeature"]
+                "linkContentType": [
+                  "homepageFeature"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -2467,7 +2544,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -2620,7 +2702,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -2845,7 +2932,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -3124,7 +3216,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["aboutProfile"]
+                "linkContentType": [
+                  "aboutProfile"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -3285,7 +3379,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["homepageLink"]
+              "linkContentType": [
+                "homepageLink"
+              ]
             }
           ],
           "disabled": false,
@@ -3305,7 +3401,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLink"]
+                "linkContentType": [
+                  "homepageLink"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -3324,7 +3422,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["homepageLogo"]
+                "linkContentType": [
+                  "homepageLogo"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -3406,7 +3506,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["navItem"]
+                "linkContentType": [
+                  "navItem"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -3582,7 +3684,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["navItem"]
+                "linkContentType": [
+                  "navItem"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -3669,7 +3773,12 @@
           "required": false,
           "validations": [
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             },
             {
@@ -6860,7 +6969,7 @@
             }
           }
         },
-        "body": {
+        "text": {
           "en-US": "Clone, deploy, edit, and customize this starter to build your own homepage"
         },
         "links": {
@@ -7088,7 +7197,7 @@
         "heading": {
           "en-US": "Modular"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -7231,7 +7340,7 @@
         "heading": {
           "en-US": "Get started in minutes and make it your own"
         },
-        "body": {
+        "text": {
           "en-US": "Everything you need to start creating a homepage today"
         },
         "name": {
@@ -7355,7 +7464,7 @@
         "heading": {
           "en-US": "Never pay for a homepage again"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -7430,7 +7539,7 @@
         "heading": {
           "en-US": "Automate everything"
         },
-        "body": {
+        "text": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -7505,7 +7614,7 @@
         "heading": {
           "en-US": "Zero downtime"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -7930,7 +8039,7 @@
         "heading": {
           "en-US": "Finish your feature sprints blazingly fast"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "content": {
@@ -8251,7 +8360,7 @@
         "heading": {
           "en-US": "Dive in now"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -9495,7 +9604,7 @@
         "heading": {
           "en-US": "Extensible"
         },
-        "body": {
+        "text": {
           "en-US": "    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -9935,7 +10044,7 @@
         "heading": {
           "en-US": "Batteries included"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet"
         },
         "content": {
@@ -10028,7 +10137,7 @@
         "heading": {
           "en-US": "Automate everything"
         },
-        "body": {
+        "text": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -10103,7 +10212,7 @@
         "heading": {
           "en-US": "Stay in the loop"
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -10178,7 +10287,7 @@
         "heading": {
           "en-US": "Stay dry"
         },
-        "body": {
+        "text": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -10485,7 +10594,7 @@
             }
           }
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -10637,7 +10746,7 @@
             }
           }
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -10723,7 +10832,7 @@
             }
           }
         },
-        "body": {
+        "text": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -11303,7 +11412,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.",
+                            "value": " means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.",
                             "marks": [],
                             "data": {}
                           }
@@ -11331,7 +11440,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to: New York, United States",
+                            "value": " refers to: New York, United States",
                             "marks": [],
                             "data": {}
                           }
@@ -11359,7 +11468,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Homepage LLC, 11 Eleventh Ave, New York, NY 11111.",
+                            "value": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Homepage LLC, 11 Eleventh Ave, New York, NY 11111.",
                             "marks": [],
                             "data": {}
                           }
@@ -11387,7 +11496,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
+                            "value": " means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
                             "marks": [],
                             "data": {}
                           }
@@ -11415,7 +11524,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to the Website.",
+                            "value": " refers to the Website.",
                             "marks": [],
                             "data": {}
                           }
@@ -11443,7 +11552,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " (also referred as \"Terms\") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the ",
+                            "value": " (also referred as \"Terms\") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the ",
                             "marks": [],
                             "data": {}
                           },
@@ -11491,7 +11600,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.",
+                            "value": " means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.",
                             "marks": [],
                             "data": {}
                           }
@@ -11519,7 +11628,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to Homepage Starter, accessible from ",
+                            "value": " refers to Homepage Starter, accessible from ",
                             "marks": [],
                             "data": {}
                           },
@@ -11567,7 +11676,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.",
+                            "value": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.",
                             "marks": [],
                             "data": {}
                           }
@@ -12299,7 +12408,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means a unique account created for You to access our Service or parts of our Service.",
+                            "value": " means a unique account created for You to access our Service or parts of our Service.",
                             "marks": [],
                             "data": {}
                           }
@@ -12327,7 +12436,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Homepage LLC, 11 Eleventh Ave, New York, NY 11111.",
+                            "value": " (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement) refers to Homepage LLC, 11 Eleventh Ave, New York, NY 11111.",
                             "marks": [],
                             "data": {}
                           }
@@ -12355,7 +12464,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.",
+                            "value": " are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.",
                             "marks": [],
                             "data": {}
                           }
@@ -12383,7 +12492,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to: New York, United States",
+                            "value": " refers to: New York, United States",
                             "marks": [],
                             "data": {}
                           }
@@ -12411,7 +12520,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
+                            "value": " means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
                             "marks": [],
                             "data": {}
                           }
@@ -12439,7 +12548,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " is any information that relates to an identified or identifiable individual.",
+                            "value": " is any information that relates to an identified or identifiable individual.",
                             "marks": [],
                             "data": {}
                           }
@@ -12467,7 +12576,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to the Website.",
+                            "value": " refers to the Website.",
                             "marks": [],
                             "data": {}
                           }
@@ -12495,7 +12604,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.",
+                            "value": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.",
                             "marks": [],
                             "data": {}
                           }
@@ -12523,7 +12632,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).",
+                            "value": " refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).",
                             "marks": [],
                             "data": {}
                           }
@@ -12551,7 +12660,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " refers to Homepage Starter, accessible from ",
+                            "value": " refers to Homepage Starter, accessible from ",
                             "marks": [],
                             "data": {}
                           },
@@ -12599,7 +12708,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.",
+                            "value": " means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.",
                             "marks": [],
                             "data": {}
                           }
@@ -12813,7 +12922,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -12859,7 +12968,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -12883,7 +12992,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -12917,7 +13026,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -12947,7 +13056,7 @@
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "Cookies can be \"Persistent\" or \"Session\" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies here: ",
+                    "value": "Cookies can be \"Persistent\" or \"Session\" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies here: ",
                     "marks": [],
                     "data": {}
                   },
@@ -13251,7 +13360,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.",
+                            "value": " to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.",
                             "marks": [],
                             "data": {}
                           }
@@ -13279,7 +13388,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.",
+                            "value": " the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.",
                             "marks": [],
                             "data": {}
                           }
@@ -13307,7 +13416,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.",
+                            "value": " To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.",
                             "marks": [],
                             "data": {}
                           }
@@ -13335,7 +13444,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.",
+                            "value": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.",
                             "marks": [],
                             "data": {}
                           }
@@ -13363,7 +13472,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " To attend and manage Your requests to Us.",
+                            "value": " To attend and manage Your requests to Us.",
                             "marks": [],
                             "data": {}
                           }
@@ -13391,7 +13500,7 @@
                           },
                           {
                             "nodeType": "text",
-                            "value": " We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.",
+                            "value": " We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.",
                             "marks": [],
                             "data": {}
                           }
@@ -13471,7 +13580,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -13517,7 +13626,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -13563,7 +13672,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -13609,7 +13718,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -13655,7 +13764,7 @@
                         "content": [
                           {
                             "nodeType": "text",
-                            "value": " ",
+                            "value": " ",
                             "marks": [],
                             "data": {}
                           }
@@ -14376,7 +14485,7 @@
         "heading": {
           "en-US": "Hi, we’re Acme. We make tools like Super™ and Track® that are used by thousands of teams worldwide."
         },
-        "body": {
+        "text": {
           "en-US": "We’re serious about creating amazing products, practices, open work, accessibility, and inclusivity. And in all that we strive to embed a good amount of fun. We’re rooted in the open source community and deeply care about giving back."
         },
         "image": {
@@ -15490,7 +15599,7 @@
         "heading": {
           "en-US": "Be excellent to each other"
         },
-        "body": {
+        "text": {
           "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
         }
       }
@@ -15565,7 +15674,7 @@
         "heading": {
           "en-US": "Care about our team"
         },
-        "body": {
+        "text": {
           "en-US": "Bottleneck mice table the discussion offline"
         }
       }
@@ -15640,7 +15749,7 @@
         "heading": {
           "en-US": "Push the limits"
         },
-        "body": {
+        "text": {
           "en-US": "We love breaking new grounds, and revel in unknowns. Always ask “why not?”"
         }
       }
@@ -15715,7 +15824,7 @@
         "heading": {
           "en-US": "Live our values"
         },
-        "body": {
+        "text": {
           "en-US": "We live and breathe integrity, empathy, and quality. Always and in everything we do."
         }
       }
@@ -15790,7 +15899,7 @@
         "heading": {
           "en-US": "Love our users"
         },
-        "body": {
+        "text": {
           "en-US": "We listen to the user and also hear their unstated needs."
         }
       }
@@ -15865,7 +15974,7 @@
         "heading": {
           "en-US": "Details, details, details"
         },
-        "body": {
+        "text": {
           "en-US": "Brand terrorists onward and upward!"
         }
       }
@@ -17690,7 +17799,7 @@
         "kicker": {
           "en-US": "Why Acme is the best"
         },
-        "body": {
+        "text": {
           "en-US": "Deploy to Gatsby Cloud or read more in the docs"
         },
         "links": {
@@ -22080,7 +22189,9 @@
       "name": "Gatsby Build Webhook",
       "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/e9f6b75f-167c-464b-bd91-0bbd4ffd73f3",
       "httpBasicUsername": null,
-      "topics": ["*.*"],
+      "topics": [
+        "*.*"
+      ],
       "filters": null,
       "transformation": null,
       "active": true,
@@ -22118,7 +22229,9 @@
       "name": "Gatsby Preview Webhook",
       "url": "https://webhook.gatsbyjs.com/hooks/data_source/e9f6b75f-167c-464b-bd91-0bbd4ffd73f3",
       "httpBasicUsername": null,
-      "topics": ["*.*"],
+      "topics": [
+        "*.*"
+      ],
       "filters": null,
       "transformation": null,
       "active": true,
@@ -22160,7 +22273,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -22176,7 +22291,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22192,7 +22309,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22208,7 +22327,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -22224,7 +22345,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22240,7 +22363,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22256,7 +22381,9 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
+        "ContentModel": [
+          "read"
+        ],
         "Settings": [],
         "ContentDelivery": [],
         "Environments": [],
@@ -22330,7 +22457,9 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
+        "ContentModel": [
+          "read"
+        ],
         "Settings": [],
         "ContentDelivery": [],
         "Environments": [],
@@ -22372,7 +22501,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -22388,7 +22519,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -22404,7 +22537,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22428,7 +22563,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22459,7 +22596,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["delete"],
+          "actions": [
+            "delete"
+          ],
           "constraint": {
             "and": [
               {
@@ -22483,7 +22622,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22507,7 +22648,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22538,7 +22681,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["delete"],
+          "actions": [
+            "delete"
+          ],
           "constraint": {
             "and": [
               {
@@ -22562,7 +22707,9 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
+        "ContentModel": [
+          "read"
+        ],
         "Settings": [],
         "ContentDelivery": [],
         "Environments": [],
@@ -22604,7 +22751,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22620,7 +22769,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -22636,7 +22787,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22659,7 +22812,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -22682,7 +22837,9 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
+        "ContentModel": [
+          "read"
+        ],
         "Settings": [],
         "ContentDelivery": [],
         "Environments": [],

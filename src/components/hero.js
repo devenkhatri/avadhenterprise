@@ -11,6 +11,7 @@ import {
   Flex,
   Box,
   ButtonList,
+  RichText,
 } from "./ui"
 
 export default function Hero(props) {
@@ -33,11 +34,7 @@ export default function Hero(props) {
             </Heading>
             <Subhead as="h2">{props.subhead}</Subhead>
             {props.text && <Text as="p">{props.text}</Text>}
-            {props.html && <div
-              dangerouslySetInnerHTML={{
-                __html: props.html,
-              }}
-            />}
+            {props.html && <RichText>{props.html}</RichText>}
             <ButtonList links={props.links} />
           </Box>
         </Flex>

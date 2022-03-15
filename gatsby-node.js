@@ -126,6 +126,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       heading: String
       kicker: String
       text: String
+      html: String
       image: HomepageImage
       links: [HomepageLink]
     }
@@ -136,6 +137,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       kicker: String
       heading: String
       text: String
+      html: String
       content: [HomepageFeature]
     }
 
@@ -145,6 +147,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       kicker: String
       heading: String
       text: String
+      html: String
       image: HomepageImage
       links: [HomepageLink]
     }
@@ -394,6 +397,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       heading: String
       kicker: String
       text: String
+      html: String @richText
       image: HomepageImage @link(from: "image___NODE")
       links: [HomepageLink] @link(from: "links___NODE")
     }
@@ -404,6 +408,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       kicker: String
       heading: String
       text: String
+      html: String @richText
       content: [HomepageFeature] @link(from: "content___NODE")
     }
 
@@ -413,6 +418,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       kicker: String
       heading: String
       text: String
+      html: String @richText
       image: HomepageImage @link(from: "image___NODE")
       links: [HomepageLink] @link(from: "links___NODE")
     }

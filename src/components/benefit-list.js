@@ -9,6 +9,7 @@ import {
   Heading,
   Text,
   Space,
+  RichText,
 } from "./ui"
 
 function Benefit(props) {
@@ -20,11 +21,7 @@ function Benefit(props) {
       <Space size={2} />
       <Heading variant="subheadSmall">{props.heading}</Heading>
       {props.text && <Text>{props.text}</Text>}
-      {props.html && <div
-        dangerouslySetInnerHTML={{
-          __html: props.html,
-        }}
-      />}
+      {props.html && <RichText>{props.html}</RichText>}
     </Box>
   )
 }
@@ -36,11 +33,7 @@ export default function BenefitList(props) {
         <Box center>
           {props.heading && <Heading>{props.heading}</Heading>}
           {props.text && <Text variant="lead">{props.text}</Text>}
-          {props.html && <div
-            dangerouslySetInnerHTML={{
-              __html: props.html,
-            }}
-          />}
+          {props.html && <RichText>{props.html}</RichText>}
         </Box>
         <Space size={3} />
         <FlexList gutter={3} variant="start" responsive wrap>

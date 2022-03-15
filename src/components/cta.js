@@ -9,6 +9,7 @@ import {
   Text,
   ButtonList,
   Kicker,
+  RichText,
 } from "./ui"
 
 export default function HomepageCta(props) {
@@ -19,9 +20,11 @@ export default function HomepageCta(props) {
           {props.kicker && <Kicker center>{props.kicker}</Kicker>}
           {props.heading}
         </Heading>
-        <Text as="p" center variant="lead">
+        {props.text && <Text as="p" center variant="lead">
           {props.text}
         </Text>
+        }
+        {props.html && <RichText center>{props.html}</RichText>}
         <ButtonList links={props.links} variant="center" reversed />
         {props.image && (
           <Nudge left={5} right={5} bottom={5}>
@@ -39,6 +42,7 @@ export const query = graphql`
     kicker
     heading
     text
+    html
     image {
       alt
       id

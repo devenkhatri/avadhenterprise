@@ -10,6 +10,7 @@ import {
   Kicker,
   Text,
   ButtonList,
+  RichText,
 } from "./ui"
 
 export default function Feature(props) {
@@ -30,7 +31,8 @@ export default function Feature(props) {
               {props.kicker && <Kicker>{props.kicker}</Kicker>}
               {props.heading}
             </Subhead>
-            <Text variant="lead">{props.text}</Text>
+            {props.text && <Text variant="lead">{props.text}</Text>}
+            {props.html && <RichText>{props.html}</RichText>}
             <ButtonList links={props.links} />
           </Box>
         </Flex>
@@ -45,6 +47,7 @@ export const query = graphql`
     kicker
     heading
     text
+    html
     links {
       id
       href

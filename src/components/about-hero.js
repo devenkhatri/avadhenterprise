@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Container, Section, Text, SuperHeading } from "./ui"
+import { Container, Section, Text, SuperHeading, RichText } from "./ui"
 import * as styles from "./about-hero.css.ts"
 
 export default function AboutHero(props) {
@@ -14,12 +14,7 @@ export default function AboutHero(props) {
         {props.text && (
           <Text className={styles.aboutHeroText}>{props.text}</Text>
         )}
-        {props.html && <div
-          className={styles.aboutHeroText}
-          dangerouslySetInnerHTML={{
-            __html: props.html,
-          }}
-        />}
+        {props.html && <RichText>{props.html}</RichText>}
       </Container>
       <Container width="wide">
         {props.image && (

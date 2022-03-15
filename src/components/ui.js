@@ -119,6 +119,20 @@ export function Text({ variant = "body", center, bold, ...props }) {
   )
 }
 
+export function RichText({ children, center, ...props }) {
+  return (
+    <Base
+      cx={[
+        center && styles.text.center,
+      ]}
+      dangerouslySetInnerHTML={{
+        __html: children,
+      }}
+      {...props}
+    />
+  )
+}
+
 export function SuperHeading({ ...props }) {
   return <Text as="h1" variant="superHeading" {...props} />
 }

@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Container, Box, Kicker, Heading, Text } from "./ui"
+import { Container, Box, Kicker, Heading, Text, RichText } from "./ui"
 import Feature from "./feature"
 
 export default function FeatureList(props) {
@@ -13,6 +13,7 @@ export default function FeatureList(props) {
             {props.heading}
           </Heading>
           {props.text && <Text>{props.text}</Text>}
+          {props.html && <RichText>{props.html}</RichText>}
         </Box>
         {props.content.map((feature, i) => (
           <Feature key={feature.id} {...feature} flip={i % 2} />
@@ -28,6 +29,7 @@ export const query = graphql`
     kicker
     heading
     text
+    html
     content {
       id
       ...HomepageFeatureContent

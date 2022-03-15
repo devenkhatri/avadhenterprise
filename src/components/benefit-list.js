@@ -19,7 +19,12 @@ function Benefit(props) {
       )}
       <Space size={2} />
       <Heading variant="subheadSmall">{props.heading}</Heading>
-      <Text>{props.text}</Text>
+      {props.text && <Text>{props.text}</Text>}
+      {props.html && <div
+        dangerouslySetInnerHTML={{
+          __html: props.html,
+        }}
+      />}
     </Box>
   )
 }
@@ -31,6 +36,11 @@ export default function BenefitList(props) {
         <Box center>
           {props.heading && <Heading>{props.heading}</Heading>}
           {props.text && <Text variant="lead">{props.text}</Text>}
+          {props.html && <div
+            dangerouslySetInnerHTML={{
+              __html: props.html,
+            }}
+          />}
         </Box>
         <Space size={3} />
         <FlexList gutter={3} variant="start" responsive wrap>
@@ -47,11 +57,13 @@ export const query = graphql`
   fragment HomepageBenefitListContent on HomepageBenefitList {
     id
     heading
-    text
+    text    
+    html
     content {
       id
       heading
       text
+      html
       image {
         id
         gatsbyImageData

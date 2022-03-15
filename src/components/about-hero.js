@@ -14,6 +14,12 @@ export default function AboutHero(props) {
         {props.text && (
           <Text className={styles.aboutHeroText}>{props.text}</Text>
         )}
+        {props.html && <div
+          className={styles.aboutHeroText}
+          dangerouslySetInnerHTML={{
+            __html: props.html,
+          }}
+        />}
       </Container>
       <Container width="wide">
         {props.image && (
@@ -33,6 +39,7 @@ export const query = graphql`
     id
     heading
     text
+    html
     image {
       id
       gatsbyImageData

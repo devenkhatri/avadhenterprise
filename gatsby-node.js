@@ -56,9 +56,12 @@ exports.createSchemaCustomization = async ({ actions }) => {
       return {
         resolve(source, args, context, info) {
           const body = source.body
-          const doc = JSON.parse(body.raw)
-          const html = documentToHtmlString(doc)
-          return html
+          if (body) {
+            const doc = JSON.parse(body.raw)
+            const html = documentToHtmlString(doc)
+            return html
+          }
+          return null;
         },
       }
     },
@@ -178,6 +181,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       id: ID!
       heading: String
       text: String
+      html: String
       image: HomepageImage
     }
 
@@ -186,6 +190,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       blocktype: String
       heading: String
       text: String
+      html: String
       content: [HomepageBenefit]
     }
 
@@ -285,6 +290,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       blocktype: String
       heading: String
       text: String
+      html: String
       image: HomepageImage
     }
 
@@ -446,6 +452,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       id: ID!
       heading: String
       text: String
+      html: String @richText
       image: HomepageImage @link(from: "image___NODE")
     }
 
@@ -455,6 +462,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       blocktype: String @blocktype
       heading: String
       text: String
+      html: String @richText
       content: [HomepageBenefit] @link(from: "content___NODE")
     }
 
@@ -512,6 +520,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       blocktype: String @blocktype
       heading: String
       text: String
+      html: String @richText
       image: HomepageImage @link(from: "image___NODE")
     }
 

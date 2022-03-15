@@ -6860,7 +6860,7 @@
             }
           }
         },
-        "text": {
+        "body": {
           "en-US": "Clone, deploy, edit, and customize this starter to build your own homepage"
         },
         "links": {
@@ -7088,7 +7088,7 @@
         "heading": {
           "en-US": "Modular"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -7231,7 +7231,7 @@
         "heading": {
           "en-US": "Get started in minutes and make it your own"
         },
-        "text": {
+        "body": {
           "en-US": "Everything you need to start creating a homepage today"
         },
         "name": {
@@ -7355,7 +7355,7 @@
         "heading": {
           "en-US": "Never pay for a homepage again"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -7430,7 +7430,7 @@
         "heading": {
           "en-US": "Automate everything"
         },
-        "text": {
+        "body": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -7505,7 +7505,7 @@
         "heading": {
           "en-US": "Zero downtime"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -7930,7 +7930,7 @@
         "heading": {
           "en-US": "Finish your feature sprints blazingly fast"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "content": {
@@ -8251,7 +8251,7 @@
         "heading": {
           "en-US": "Dive in now"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -9495,7 +9495,7 @@
         "heading": {
           "en-US": "Extensible"
         },
-        "text": {
+        "body": {
           "en-US": "    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         "links": {
@@ -9935,7 +9935,7 @@
         "heading": {
           "en-US": "Batteries included"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet"
         },
         "content": {
@@ -10028,7 +10028,7 @@
         "heading": {
           "en-US": "Automate everything"
         },
-        "text": {
+        "body": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -10103,7 +10103,7 @@
         "heading": {
           "en-US": "Stay in the loop"
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       }
@@ -10178,7 +10178,7 @@
         "heading": {
           "en-US": "Stay dry"
         },
-        "text": {
+        "body": {
           "en-US": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
       }
@@ -10485,7 +10485,7 @@
             }
           }
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -10637,7 +10637,7 @@
             }
           }
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -10723,7 +10723,7 @@
             }
           }
         },
-        "text": {
+        "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "links": {
@@ -14376,7 +14376,7 @@
         "heading": {
           "en-US": "Hi, we’re Acme. We make tools like Super™ and Track® that are used by thousands of teams worldwide."
         },
-        "text": {
+        "body": {
           "en-US": "We’re serious about creating amazing products, practices, open work, accessibility, and inclusivity. And in all that we strive to embed a good amount of fun. We’re rooted in the open source community and deeply care about giving back."
         },
         "image": {
@@ -15490,7 +15490,7 @@
         "heading": {
           "en-US": "Be excellent to each other"
         },
-        "text": {
+        "body": {
           "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
         }
       }
@@ -15565,7 +15565,7 @@
         "heading": {
           "en-US": "Care about our team"
         },
-        "text": {
+        "body": {
           "en-US": "Bottleneck mice table the discussion offline"
         }
       }
@@ -15640,7 +15640,7 @@
         "heading": {
           "en-US": "Push the limits"
         },
-        "text": {
+        "body": {
           "en-US": "We love breaking new grounds, and revel in unknowns. Always ask “why not?”"
         }
       }
@@ -15715,7 +15715,7 @@
         "heading": {
           "en-US": "Live our values"
         },
-        "text": {
+        "body": {
           "en-US": "We live and breathe integrity, empathy, and quality. Always and in everything we do."
         }
       }
@@ -15790,7 +15790,7 @@
         "heading": {
           "en-US": "Love our users"
         },
-        "text": {
+        "body": {
           "en-US": "We listen to the user and also hear their unstated needs."
         }
       }
@@ -15865,7 +15865,7 @@
         "heading": {
           "en-US": "Details, details, details"
         },
-        "text": {
+        "body": {
           "en-US": "Brand terrorists onward and upward!"
         }
       }
@@ -17690,7 +17690,7 @@
         "kicker": {
           "en-US": "Why Acme is the best"
         },
-        "text": {
+        "body": {
           "en-US": "Deploy to Gatsby Cloud or read more in the docs"
         },
         "links": {

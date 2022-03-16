@@ -3,6 +3,6 @@ import { Logo } from "./ui"
 
 export default function GatsbyContentfulLogo({logo}) {
   return (
-    <Logo alt={logo?.alt} image={logo} />
+    <Logo alt={logo?.alt} image={logo} size="large" />
   )
 }

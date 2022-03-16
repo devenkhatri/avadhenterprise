@@ -30,7 +30,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Avadh Enterprise",
-        short_name: "AvadhEnt",
+        short_name: "Avadh Ent.",
         start_url: "/",
         // These can be imported once ESM support lands
         background_color: "#ffe491",

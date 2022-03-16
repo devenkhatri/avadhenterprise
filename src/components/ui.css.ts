@@ -517,6 +517,9 @@ export const logos = styleVariants({
   medium: {
     maxWidth: "128px",
   },
+  large: {
+    width: "256px",
+  },
 })
 
 export const icons = styleVariants(

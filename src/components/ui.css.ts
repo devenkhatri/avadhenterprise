@@ -518,7 +518,7 @@ export const logos = styleVariants({
     maxWidth: "128px",
   },
   large: {
-    width: "256px",
+    width: "216px",
   },
 })
 

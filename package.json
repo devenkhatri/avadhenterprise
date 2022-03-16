@@ -2,7 +2,7 @@
   "name": "avadhenterprise",
   "version": "1.0.0",
   "scripts": {
-    "start": "gatsby develop",
+    "start": "gatsby clean && gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",

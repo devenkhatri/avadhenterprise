@@ -343,6 +343,15 @@ exports.createSchemaCustomization = async ({ actions }) => {
       image: HomepageImage
       html: String!
     }
+
+    interface BlogPost implements Node {
+      id: ID!
+      slug: String!
+      title: String
+      excerpt: String
+      image: HomepageImage
+      html: String!
+    }
   `)
 
   // CMS-specific types for Homepage
@@ -620,6 +629,18 @@ exports.createSchemaCustomization = async ({ actions }) => {
       slug: String!
       title: String
       description: String
+      image: HomepageImage @link(from: "image___NODE")
+      html: String! @richText
+    }
+  `)
+
+  // BlogPost types
+  actions.createTypes(/* GraphQL */ `
+    type ContentfulBlogPost implements Node & BlogPost {
+      id: ID!
+      slug: String!
+      title: String
+      excerpt: String
       image: HomepageImage @link(from: "image___NODE")
       html: String! @richText
     }

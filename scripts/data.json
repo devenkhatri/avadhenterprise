@@ -8834,10 +8834,10 @@
       },
       "fields": {
         "text": {
-          "en-US": "Pricing"
+          "en-US": "Components"
         },
         "href": {
-          "en-US": "#!"
+          "en-US": "/components"
         }
       }
     },
@@ -18013,10 +18013,10 @@
       },
       "fields": {
         "text": {
-          "en-US": "Pricing"
+          "en-US": "Components"
         },
         "href": {
-          "en-US": "#!"
+          "en-US": "/components"
         }
       }
     },
